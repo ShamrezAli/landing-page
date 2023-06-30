@@ -22,7 +22,7 @@ body {
 
 h1 {
     font-size: 24px;
-    font-weight: bold;
+    font-weight:900;
 }
 
 .rightheader ul {
@@ -50,11 +50,12 @@ h1 {
 
 .siteintro {
     display: flex;
-    justify-content: space-around;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
     background-color: #1F2937;
     color: #e5e7eb;
-    padding: 100px;
+    padding: 150px;
 
 }
 
@@ -73,3 +74,14 @@ button {
     border-radius: 8px;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #1F2937;
+}
+
+.sitecards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
