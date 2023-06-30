@@ -1,0 +1,11 @@
+/* CSS style sheet for landing page */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
