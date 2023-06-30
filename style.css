@@ -3,6 +3,7 @@
 * {
     list-style-type: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #1F2937;
-    color: white;
+    color: #E5E7Eb;
 }
 
 .rightheader ul {
@@ -24,8 +25,11 @@ body {
     gap: 10px;
 }
 
-a {
-    color: white;
+.rightheader a {
+    color: #E5E7Eb;
+    font-size: 18px;
+
+
 }
 
 .content {
