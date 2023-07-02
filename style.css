@@ -101,14 +101,14 @@ h3 {
     color: #1F2937;
 }
 
-.card1,
-.card2,
-.card3,
-.card4,
-.card5 {
+.tiles {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    height: 250;
+    width: 250;
 }
